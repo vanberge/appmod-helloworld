@@ -5,4 +5,4 @@
 export PROJECT=$(gcloud config get-value project)
 
 #Build contianer and push to hello world GCR
-gcloud builds submit --tag gcr.io/$PROJECT/helloworld
+gcloud builds submit --tag gcr.io/$PROJECT/hello-world
